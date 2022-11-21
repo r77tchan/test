@@ -5,14 +5,22 @@
 }
 
 body {
-  margin: 0 auto;
-  /* background: #f5e383 url(bg_top.jpg) no-repeat center top fixed; */
-  /* 4G → #292b2a */
-  word-break: break-word;
 
-  background-image: url('bg_top.jpg');
-  background-attachment: fixed;
+
+  background-color: #f5e383;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("bg_top.jpg");
+  background-position: center center;
   background-size: cover;
-  background-position: center;
-
+  background-repeat: no-repeat;
+  opacity: .5;
+  z-index: -1;
 }
