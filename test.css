@@ -6,7 +6,13 @@
 
 body {
   margin: 0 auto;
-  background: #f5e383 url(bg_top.jpg) no-repeat center top fixed;
+  /* background: #f5e383 url(bg_top.jpg) no-repeat center top fixed; */
   /* 4G → #292b2a */
   word-break: break-word;
+
+  background-image: url('bg_top.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+
 }
