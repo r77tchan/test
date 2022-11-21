@@ -6,7 +6,7 @@
 
 body {
   margin: 0 auto;
-  /* background: #f5e383 url(bg_top.jpg) no-repeat center top fixed; */
+  background-color: #f5e383;
   /* 4G → #292b2a */
   word-break: break-word;
 
