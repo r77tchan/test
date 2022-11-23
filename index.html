@@ -9,11 +9,18 @@
   <title>testページ</title>
 </head>
 <body>
-  <div id="sc">
+  <div id="var">
+    変更前
+  </div>
+  <div id="let">
     変更前
   </div>
   <script>
-    document.getElementById("sc").textContent = "jsで変更に成功しています";
+    var var1 = document.getElementById("var");
+    var1.textContent = "varで変更に成功しています";
+
+    let let1 = document.getElementById("let");
+    let1.textContent = "letで変更に成功しています";
   </script>
 </body>
 </html>
